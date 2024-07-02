@@ -5,8 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel = "stylesheet" href = "styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id = "structure">
+        <div id="image"></div>
+        <div id = "secondHalf">
+            <h1>Sign up today to become an idol! </h1>
+            <div class = "form">
+                <form action = "results.html" method = "GET">
+                    <div id = "name">
+                        <div class = "prompt">
+                            <label for = "first_name">First Name: </label>
+                            <input type = "text" id = "first_name" placeholder = "Ex: 정인" name = "first_name">
+                        </div>
+                        <div class = "prompt">
+                            <label for = "last_name">Last Name: </label>
+                            <input type = "text" id = "last_name" placeholder = "Ex: 양" name = "last_name">
+                        </div>
+                    </div>
+                    <div class = "contactInformation">
+                        <div class = "prompt">
+                            <label for = "email">Email: </label>
+                            <input type = "email" id = "email" placeholder = "Ex: email@gmail.com" name = "email">
+                        </div>
+                        <div class = "prompt">
+                            <label for = "phoneNumber">Phone Number: </label>
+                            <input type = "text" id = "phoneNumber" placeholder = "Ex: 111-222-3333" name = "phoneNumber">
+                        </div>
+                    </div>
+                    <div class = "password">
+                        <div class = "prompt">
+                            <label for = "password">Password: </label>
+                            <input type = "password" id = "password" name = "password">
+                        </div>
+                        <div class = "prompt">
+                            <label for = "confirmedPassword">Confirm Password: </label>
+                            <input type = "password" id = "confirmedPassword" name = "confirmedPassword">
+                        </div>
+                    </div>
+                    <button type = "submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
